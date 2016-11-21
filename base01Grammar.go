@@ -11,9 +11,10 @@ func one() {
 	var b int8 = 2
 	var c int64 = 2312222222222222221
 	//	fmt.Printf(reflect.TypeOf(c).Size())
-	fmt.Printf("%t", b)
+	fmt.Printf("b的类型：%t\n", b)
 	d := false
 	var e = 333.2
+	fmt.Printf("e的类型：%t\n", e)
 	var f, g int
 	var h, i string
 	var k, j string = "a", "b"

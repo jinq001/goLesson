@@ -83,14 +83,16 @@ func anonymousFunc(b int) {
 	a()
 }
 
-func main() {
+func main111() {
 	anonymousFunc(1)
 	f := anonymousFunc
-	callBack(10, f)
+	fmt.Print(f)
+	//	callBack(10, f)
 }
-func callBack(someValue int, f anonymousFunc) {
-	f(someValue)
-}
+
+//func callBack(someValue int, f anonymousFunc) {
+//	f(someValue)
+//}
 
 //接口定义
 type InterfaceOne interface {
